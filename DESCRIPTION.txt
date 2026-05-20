@@ -1,0 +1,23 @@
+
+Generic Python tool for reading, plotting, and exporting ArduPilot/Pixhawk
+binary log files (.BIN). Automatically detects available sensors and generates
+publication-quality plots (PDF) and raw data exports (CSV).
+
+Features:
+  - Reads any ArduPilot .BIN log (DataFlash format)
+  - Plots attitude, IMU, barometer, GPS, vibration, battery
+  - Exports raw sensor data to CSV
+  - Prints statistical summary (mean, std, min, max)
+  - No configuration needed — auto-detects available sensors
+  - Interactive file selector when no argument is given
+
+Quick start:
+  pip install pymavlink matplotlib numpy
+  python3 plot_bin.py 00000180.BIN --save --csv
+
+Built with pymavlink (official ArduPilot library).
+See README.md for full documentation.
+
+Author: Aline G. G. Timm
+Context: Experimental validation of the Whiteboat 6-DOF model
+         (Hydrone Project, FURG/UFPel)
