@@ -1,4 +1,4 @@
-# Plot BIN — Visualizador de Logs ArduPilot
+## Visualizador de Logs ArduPilot
 
 Ferramenta em Python para leitura, visualização e exportação de logs binários (.BIN) do ArduPilot/Pixhawk. Desenvolvida como apoio à campanha de validação experimental do modelo 6-DOF do Whiteboat (Projeto Hydrone, FURG/UFPel).
 
